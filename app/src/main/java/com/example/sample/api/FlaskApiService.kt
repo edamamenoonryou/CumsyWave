@@ -11,7 +11,7 @@ import retrofit2.http.Part
 
 interface FlaskApiService {
     @Multipart
-    @POST("upload") // Flaskサーバーのエンドポイント
+    @POST("upload")
     fun uploadFile(@Part file: MultipartBody.Part): Call<ClumsyResult>
 
     @POST("/mail")

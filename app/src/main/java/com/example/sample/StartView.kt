@@ -216,10 +216,10 @@ class StartView : AppCompatActivity() {
             resultTextView.text = "声紋が($maxTarget)さんと($maxCos)%一致しました。"
 
             val sharedPreferences = getSharedPreferences("UserInfo", MODE_PRIVATE)
-            val name = sharedPreferences.getString("name", "誰か") // デフォルト値を指定zz
+            val name = sharedPreferences.getString("name", "誰か")
 
             val mailRetrofit = Retrofit.Builder()
-                .baseUrl("http://172.20.10.2:5000/mail/")  // サーバーのベースURL
+                .baseUrl("http://172.20.10.2:5000/mail/")  // flaskサーバーのURL
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
             val mailService = mailRetrofit.create(FlaskApiService::class.java)

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ClumsyWave</string>
+    <string name="Title">Clumsy Wave</string>
+    <string name="TitleBack">タイトルへ戻る</string>
+
+    <string name="StartButton">声紋認証</string>
+    <string name="loading">計算中…</string>
+    <string name="AddText">声紋を追加</string>
+    <string name="AddName">名前</string>
+    <string name="AddAddress">メールアドレス</string>
+    <string name="FamilyAddress">家族のメールアドレス</string>
+    <string name="AddButton">追加</string>
+    <string name="BlackCheck">ブラックリスト</string>
+    <string name="BlackAnnounce">※ブラックリストに登録する場合は名前のみ入力</string>
+
+
+    <string name="UserText">ユーザー情報を編集</string>
+    <string name="changeButton">変更</string>
+    <string name="EditButton">声紋リストを編集</string>
+    <string name="DeleteButton">削除</string>
+    <string name="SettingButton">設定</string>
+    <string name="BlackList">※メールアドレスが空白の人物はブラックリストに登録されています</string>
+
+    <string name="Credit">工業技術部</string>
+
+</resources>
